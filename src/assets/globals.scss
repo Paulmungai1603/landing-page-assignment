@@ -1,0 +1,5 @@
+@function respDim($dim) {
+    $dim: ($dim/1920) * 100vw;
+    @return $dim;
+}
+ 
